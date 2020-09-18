@@ -26,7 +26,7 @@
     height: 90vh;
   }
   .main-left {
-    background: linear-gradient(90deg, rgba(168,26,26,0.8) 0%, rgba(168,26,26,0.8) 100%), url(../images/arnold-francisca-f77Bh3inUpE-unsplash.jpg);
+    background: linear-gradient(90deg, rgba(168,26,26,0.9) 0%, rgba(168,26,26,0.9) 100%), url(../images/arnold-francisca-f77Bh3inUpE-unsplash.jpg);
     width: 70%;
     background-position: center;
     background-size: cover;
