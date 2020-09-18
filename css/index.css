@@ -39,6 +39,22 @@
     width: 30%;
   }
 
+  .main h1 {
+    animation: fadeInTopLeft;
+    animation-duration: 2s;
+  }
+
+  .main p {
+    animation: tada;
+    animation-duration: 2s;
+  }
+
+  .main a {
+    animation: heartBeat;
+    animation-duration: 2s;
+  }
+
+
   .main a, .card{
     transition: all .3s ease-in;
   }
