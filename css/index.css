@@ -26,8 +26,10 @@
     height: 90vh;
   }
   .main-left {
-    background-color: #A81A1A;
+    background: linear-gradient(90deg, rgba(168,26,26,0.8) 0%, rgba(168,26,26,0.8) 100%), url(../images/arnold-francisca-f77Bh3inUpE-unsplash.jpg);
     width: 70%;
+    background-position: center;
+    background-size: cover;
   }
   .main-right {
     background: url(../images/giphy.gif);
@@ -50,7 +52,7 @@
   }
 
   .section1 h1 {
-    color: #A81A1A;
+    color: #a81a1a;
   }
   .section1 p {
     line-height: 2em;
@@ -61,10 +63,10 @@
   }
   .div2 {
     width: 30%;
-    background-color: #A81A1A;
+    background-color: #a81a1a;
   }
   .section2 {
-    background-color: #A81A1A;
+    background-color: #a81a1a;
     padding: 50px 0 100px;
   }
   .section2 img {
