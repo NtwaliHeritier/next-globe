@@ -7,37 +7,70 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-    <title>Payoneer</title>
+    <title>NEXT GLOBE</title>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+
       header {
         background-color: #282828;
         height: 10vh;
       }
+      
+      nav {
+        height: inherit;
+      }
+
       .main {
         display: flex;
         height: 90vh;
       }
       .main-left {
         background-color: #c90c28;
-        width: 50%;
+        width: 70%;
       }
       .main-right {
         background: url(./images/giphy.gif);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        width: 50%;
+        width: 30%;
+      }
+      .section1 h1 {
+        color: #c90c28;
+      }
+      .section1 p {
+        line-height: 2em;
+        width:90%;
+      }
+      .section2 {
+        background-color: #282828;
+      }
+      .section2 img {
+        height: 300px;
+      }
+      .centering {
+        width: 95%;
+        margin: auto;
+      }
+      .card p {
+        color: #282828;
       }
     </style>
   </head>
   <body>
     <header class="px-3">
-      <nav class="d-flex justify-content-between align-items-center py-1">
-        <div class="text-white d-flex">
-          <i class="fas fa-desktop fa-4x"></i>
-          <h5 class="text-white align-self-end ml-2">NEXT GLOBE</h2>
-        </div>
+      <nav class="d-flex justify-content-between align-items-center">
+          <h2 class="text-white h1">NEXT GLOBE</h2>
         <div>
           <a href="#" class="px-2 text-white font-weight-bold">HOME</a>
           <a href="#" class="px-2 text-white font-weight-bold">CONTACT</a>
@@ -48,10 +81,47 @@
    <div class="main">
     <div class="main-left d-flex flex-column justify-content-center align-items-center">
       <h1 class="display-1 text-white font-weight-bold">NEXT GLOBE</h1>
-      <button class="mt-5 px-3 py-2 border-none rounded font-weight-bold">DETAILS</button>
+      <p class="text-white">SIMPLE SOLUTIONS TO COMPLEX PROBLEMS</p>
+      <button class="mt-3 px-3 py-2 border-none rounded font-weight-bold">DETAILS</button>
     </div>
     <div class="main-right"></div>
    </div>
+   <div class="section1 my-5">
+    <h1 class="text-center font-weight-bold py-5">WHAT WE DO</h1>
+    <p class="m-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus incidunt quam. Recusandae aspernatur aliquid dolores delectus minus facilis id beatae incidunt illum optio inventore perspiciatis eveniet quaerat odit dignissimos voluptas rerum unde, sit magnam neque possimus consequuntur! Animi neque fuga, sit molestiae aspernatur corporis. Autem soluta illo dolorum nulla recusandae molestiae officiis dicta! Deleniti minus ad aliquid nesciunt fugiat facilis! Ducimus in rem, exercitationem enim officiis suscipit ipsum magni animi quia nulla, eaque nisi delectus cum, eius neque incidunt inventore odio quam aspernatur quae perspiciatis est ut. Maxime nihil fuga fugit eligendi aperiam, praesentium natus sint vel temporibus! Ipsum minus voluptas consectetur deleniti voluptates eum dolores doloremque, quam tempora illum consequatur facere dignissimos veniam facilis commodi doloribus esse exercitationem? Ad officia, ducimus sequi aspernatur eveniet quis ea laboriosam eligendi possimus vel temporibus quasi! Aliquam vitae hic expedita cum. Laudantium nobis quos quidem veniam. Ullam vitae voluptate eius voluptatem! Eveniet quibusdam dolorem quisquam eius dicta vel ipsum laboriosam obcaecati ab fuga? Possimus voluptas culpa atque, enim quod veritatis dolorem est optio. Sit ipsa voluptatum nam expedita quo, in dolorem odit recusandae porro esse, ipsum velit ea voluptas natus sed accusamus illo fugiat! Sequi, vitae recusandae eveniet officiis quam illo tempora nesciunt maiores blanditiis. A sapiente nostrum nam mollitia sint minus dignissimos nulla architecto cumque nihil voluptas, iusto eligendi voluptates rerum quia commodi inventore explicabo culpa. Laborum, expedita, quos perferendis in officiis ipsam sit nesciunt possimus, accusantium saepe atque. Suscipit nobis, itaque porro rerum iusto aliquam quaerat qui hic, exercitationem error non praesentium voluptate ullam molestiae recusandae modi delectus nostrum eos omnis quas. Repellendus necessitatibus excepturi quasi vel delectus tempora, iste iusto corporis nulla officiis itaque adipisci distinctio nobis vitae error. Sunt asperiores nostrum illo molestias laborum magni repellat esse error dolores autem, sequi maiores ipsum, voluptatum deserunt vitae soluta laboriosam?</p>
+   </div>
+   <div class="section2 text-white py-5 my-5">
+    <h1 class="text-center font-weight-bold pb-5">OUR TEAM</h1>
+    <div class="centering">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="./images/1.jpg" alt="Card image cap">
+          <div class="card-body text-center">
+            <p class="font-weight-bold">Keith</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./images/2.jpg" alt="Card image cap">
+          <div class="card-body text-center">
+            <p class="font-weight-bold">Keith</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./images/3.jpg" alt="Card image cap">
+          <div class="card-body text-center">
+            <p class="font-weight-bold">Keith</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   
+   <footer>
+
+   </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://kit.fontawesome.com/16d2250538.js" crossorigin="anonymous"></script>
