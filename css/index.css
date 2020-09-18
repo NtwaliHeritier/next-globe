@@ -8,6 +8,10 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  a:hover {
+    text-decoration: none;
+  }
+
   header {
     background-color: #282828;
     height: 10vh;
@@ -22,7 +26,7 @@
     height: 90vh;
   }
   .main-left {
-    background-color: #c90c28;
+    background-color: #A81A1A;
     width: 70%;
   }
   .main-right {
@@ -32,8 +36,21 @@
     background-position: center;
     width: 30%;
   }
+
+  .main a, .card{
+    transition: all .3s ease-in;
+  }
+
+  .main a:hover{
+    transform: translateY(10px) scale(1.1);
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+  }
+
   .section1 h1 {
-    color: #c90c28;
+    color: #A81A1A;
   }
   .section1 p {
     line-height: 2em;
@@ -44,10 +61,10 @@
   }
   .div2 {
     width: 30%;
-    background-color: #c90c28;
+    background-color: #A81A1A;
   }
   .section2 {
-    background-color: #c90c28;
+    background-color: #A81A1A;
     padding: 50px 0 100px;
   }
   .section2 img {
@@ -72,6 +89,10 @@
     border-radius: 50%;
     padding: 10px;
     margin: 10px;
+    transition: all .3s linear;
+  }
+  .footer-logos div:hover {
+    transform: scale(1.5)
   }
   .footer-bottom {
     border-top: 1px solid white;
