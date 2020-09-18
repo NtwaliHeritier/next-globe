@@ -37,7 +37,14 @@
   }
   .section1 p {
     line-height: 2em;
-    width:90%;
+    margin-left: 2%;
+  }
+  .div1 {
+    width: 70%;
+  }
+  .div2 {
+    width: 30%;
+    background-color: #c90c28;
   }
   .section2 {
     background-color: #c90c28;
