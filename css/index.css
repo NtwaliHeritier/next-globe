@@ -40,8 +40,8 @@
   }
 
   .main h1 {
-    animation: fadeInTopLeft;
-    animation-duration: 2s;
+    animation: fadeInLeftBig;
+    animation-duration: 1s;
   }
 
   .main p {
@@ -92,6 +92,7 @@
     width: 95%;
     margin: auto;
   }
+
   .card p {
     color: #282828;
   }
