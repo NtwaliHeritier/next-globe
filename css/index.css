@@ -82,11 +82,22 @@
     animation-duration: 4s;
   }
 
+  .mypopup {
+    position: sticky;
+    bottom: 0;
+    left: 96%;
+    display: inline-block;
+    cursor: pointer;
+  }
+
   .section1 h1 {
     color: #a81a1a;
   }
   .section1 p {
-    line-height: 2em;
+    font-size: 1.4em;
+  }
+  .section1 ul {
+    font-size: 1.2em;
   }
   .div1 {
     width: 70%;
