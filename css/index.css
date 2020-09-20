@@ -105,6 +105,8 @@
   }
   .footer-logos div {
     background-color: white;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     padding: 10px;
     margin: 10px;
